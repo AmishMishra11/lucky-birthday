@@ -3,6 +3,10 @@
   --primary: #1f2937;
   --secondary: #10b981;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font-family: "Raleway", sans-serif;
@@ -12,6 +16,7 @@ body {
 .container {
   width: 20%;
   margin: auto;
+  margin-top: 1rem;
 }
 h1 {
   margin-top: 5rem;
@@ -40,14 +45,13 @@ button {
   border-radius: 0.3rem;
 }
 
-/* //////// */
 .footer {
   position: fixed;
   bottom: 0px;
   text-align: center;
-  padding: 2rem;
   width: 100%;
   color: var(--secondary);
+  padding-bottom: 2rem;
 }
 .footer .footer-header {
   font-weight: bold;
