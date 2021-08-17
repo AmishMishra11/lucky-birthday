@@ -39,3 +39,30 @@ button {
   font-size: medium;
   border-radius: 0.3rem;
 }
+
+/* //////// */
+.footer {
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  padding: 2rem;
+  width: 100%;
+  color: var(--secondary);
+}
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+.footer .link {
+  text-decoration: none;
+
+  color: var(--secondary);
+}
+.footer ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+li {
+  display: inline;
+  padding: 1rem;
+}
